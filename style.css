@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Varela+Round&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif ;
+    box-sizing: border-box;
+    background: url(img/543152.jpg)no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+#weather{
+    padding: 20px;
+    width: 70%;
+    margin: 80px auto;
+    text-align: center;
+}
+#weather-input{
+    margin-top: 50px;
+}
+#inputField{
+    width: 70%;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid royalblue;
+    padding: 20px;
+    font-size: 1.2em;
+    transition: all 0.2s;
+}
+#inputField:focus{
+    border: 3px solid orangered;
+}
+#showBtn{
+    width: 10%;
+    height: 46px;
+    border-radius: 10px;
+    border: 3px solid royalblue;
+    font-size: 1.2em;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: rgba(0,0,0,0.3);
+}
+
+#showBtn:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+#weather-output{
+    color: white;
+    font-size: 2em;
+}
+
+#celcius{
+    margin: -25px 0;
+}
