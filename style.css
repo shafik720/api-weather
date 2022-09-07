@@ -57,3 +57,13 @@ body{
 #celcius{
     margin: -25px 0;
 }
+#weather-img{
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 5px solid navy;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    display: none;
+    margin: auto;
+}
